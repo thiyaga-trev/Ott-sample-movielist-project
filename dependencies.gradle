@@ -111,6 +111,12 @@ def Gson=dependencyGroup{
     api "com.google.code.gson:gson:$gsonVersion"
 
 }
+
+def firebase=dependencyGroup {
+    implementation platform('com.google.firebase:firebase-bom:28.2.0')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+}
 ext.kotlinVersion = kotlinVersion
 ext.AndroidArchitecture = AndroidArchitecture
 ext.AndroidSupport = AndroidSupport
@@ -124,4 +130,5 @@ ext.KotlinCoroutine = KotlinCoroutine
 ext.encryptedPrefs = encryptedPrefs
 ext.Room = Room
 ext.Gson=Gson
+ext.firebase=firebase
 

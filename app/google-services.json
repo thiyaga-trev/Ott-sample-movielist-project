@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "784255549704",
+    "project_id": "ott-sample-project",
+    "storage_bucket": "ott-sample-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784255549704:android:1aacd1feace0886b91acbd",
+        "android_client_info": {
+          "package_name": "com.thiyaga.ottsampleproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784255549704-9bruld39ag6bbfi39lsblfia23thu5o9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7QJ4W39M6P5T1h-yPelM7rIufbyDMvFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784255549704-9bruld39ag6bbfi39lsblfia23thu5o9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
